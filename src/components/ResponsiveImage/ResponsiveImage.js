@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import useWindowSize from './useWindowSize.js'; // Custom hook to get window size
 
 const ResponsiveImage = ({ src, alt, width, height }) => {

@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: (theme) => ({
         viking: "url('/viking2.png')",
+        vikingsm: "url('/viking2_sm.png')",
+        vikingmd: "url('/viking2_md.png')"
       })
     },
   },
